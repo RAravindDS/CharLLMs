@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/charllms.webp" width=300>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/images/charllms.webp" width=300>
     <img alt="PYPI Package Link" src="https://pypi.org/project/charLLM/" width="352" height="59" style="max-width: 100%;">
   </picture>
   <br/>
@@ -58,10 +58,10 @@ To use the Character-Level MLP language model, follow these steps:
 4. Train the model on a suitable dataset.
 5. Generate text using the trained model.
 
-**Demo for NPLM**
+**Demo for NPLM** (A Neural Probabilistic Language Model)
 ```python 
 # Import the class 
->>> from charLLM import NPLM # Neurl Probablistic Language Model 
+>>> from charLLM import NPLM # Neural Probabilistic Language Model
 >>> text_path = "path-to-text-file.txt" 
 >>> model_parameters = {
     "block_size" :3, 
@@ -78,10 +78,11 @@ To use the Character-Level MLP language model, follow these steps:
 >>> obj.sampling(words_needed=10) #It samples 10 tokens. 
 ```
 
+<br>
 <center><b>Model Output Graph<b></center>
-
-<center><img src="images/nplm_plt.png" height=350></center>
-
+<br>
+<center><img src="https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/images/nplm_plt.png" height=350></center>
+<br>
 
 
 Feel free to explore the repository and experiment with the different language models provided.
@@ -92,4 +93,4 @@ Contributions to this repository are welcome. If you have implemented a novel ch
 
 ## License
 
-This repository is licensed under the [MIT License](LICENCE).
+This repository is licensed under the [MIT License](https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/LICENCE).
