@@ -167,3 +167,6 @@ class NPLM:
                 
             print(''.join(self.itos[i] for i in out))
             all_words.append("".join(self.itos[i] for i in out))
+
+
+# Testing
