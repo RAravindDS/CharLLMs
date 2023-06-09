@@ -71,7 +71,7 @@ To use the Character-Level MLP language model, follow these steps:
     'embedding_dimension' :50,
     'learning_rate' :0.1 
     }
->>> obj = NPLM.NPLM(text_path, model_parameters)  # Initialize the class 
+>>> obj = NPLM(text_path, model_parameters)  # Initialize the class 
 >>> obj.train_model() 
 ## It outputs the val_loss and image 
 >>> obj.sampling(words_needed=10) #It samples 10 tokens. 
