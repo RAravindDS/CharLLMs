@@ -77,6 +77,12 @@ To use the Character-Level MLP language model, follow these steps:
 >>> obj.sampling(words_needed=10) #It samples 10 tokens. 
 ```
 
+<center><b>Model Output Graph<b></center>
+
+<center><img src="images/nplm_plt.png" height=350></center>
+
+
+
 Feel free to explore the repository and experiment with the different language models provided.
 
 ## Contributions
@@ -85,4 +91,4 @@ Contributions to this repository are welcome. If you have implemented a novel ch
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](LICENCE).
