@@ -58,6 +58,25 @@ To use the Character-Level MLP language model, follow these steps:
 4. Train the model on a suitable dataset.
 5. Generate text using the trained model.
 
+```python 
+# Import the class 
+>>> from charLLM import NPLM # Neurl Probablistic Language Model 
+>>> text_path = "path-to-text-file.txt" 
+>>> model_parameters = {
+    "block_size" :3, 
+    "train_size" :0.8, 
+    'epochs' :10000, 
+    'batch_size' :32, 
+    'hidden_layer' :100, 
+    'embedding_dimension' :50,
+    'learning_rate' :0.1 
+    }
+>>> obj = NPLM.NPLM(text_path, model_parameters)  # Initialize the class 
+>>> obj.train_model() 
+## It outputs the val_loss and image 
+>>> obj.sampling(words_needed=10) #It samples 10 tokens. 
+```
+
 Feel free to explore the repository and experiment with the different language models provided.
 
 ## Contributions
