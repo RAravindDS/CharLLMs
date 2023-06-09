@@ -35,14 +35,14 @@ Then, you will need to install **PyTorch**.
 
 When backends has been installed, CharLLMs can be installed using pip as follows:
 
-```bash
+```python
 pip install charLLM
 ```
 ### With GIT 
 
 CharLLMs can be installed using conda as follows:
 
-```shell script
+```zsh
 git clone https://github.com/RAravindDS/Neural-Probabilistic-Language-Model.git
 ```
 
@@ -58,6 +58,7 @@ To use the Character-Level MLP language model, follow these steps:
 4. Train the model on a suitable dataset.
 5. Generate text using the trained model.
 
+**Demo for NPLM**
 ```python 
 # Import the class 
 >>> from charLLM import NPLM # Neurl Probablistic Language Model 
