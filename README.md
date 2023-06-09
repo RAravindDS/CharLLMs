@@ -1,11 +1,10 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/images/charllms.webp" width=300>
-    <img alt="PYPI Package Link" src="https://pypi.org/project/charLLM/" width="352" height="59" style="max-width: 100%;">
-  </picture>
+  <img src="https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/images/charllms.webp" height=300>
   <br/>
   <br/>
 </p>
+
+
 
 
 # **Character-Level Language Models Repo 🕺🏽**
@@ -78,11 +77,11 @@ To use the Character-Level MLP language model, follow these steps:
 >>> obj.sampling(words_needed=10) #It samples 10 tokens. 
 ```
 
-<br>
-<center><b>Model Output Graph<b></center>
-<br>
-<center><img src="https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/images/nplm_plt.png" height=350></center>
-<br>
+
+**Model Output Graph**
+
+
+<img src="https://raw.githubusercontent.com/RAravindDS/CharLLMs/main/images/nplm_plt.png" height=350>
 
 
 Feel free to explore the repository and experiment with the different language models provided.
