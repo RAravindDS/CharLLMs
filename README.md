@@ -88,7 +88,7 @@ Feel free to explore the repository and experiment with the different language m
 
 ## Contributions
 
-Contributions to this repository are welcome. If you have implemented a novel character-level language model or would like to enhance the existing models, please consider contributing to the project.
+Contributions to this repository are welcome. If you have implemented a novel character-level language model or would like to enhance the existing models, please consider contributing to the project. Thank you !
 
 ## License
 
